@@ -42,14 +42,14 @@ function Producto() {
 				}
 			`}</style>
 			<div className={styles.carrito}>
-				<img onClick={()=>setCarrito(!carrito)} src="/img/cesta-de-la-compra.png" alt="" />
+				<Image layout="fill" onClick={()=>setCarrito(!carrito)} src="/img/cesta-de-la-compra.png" alt="" />
 			</div>
 			
 			<div className={styles.productoContainer}>
 				<h2 id="pdet">Productos de temporada</h2>
 				<div className={styles.productos}>
 					<div>
-						<img src={"/img/frutilla.webp"}/>
+						<Image layout="fill" src={"/img/frutilla.webp"}/>
 						<h5>Frutilla mendocina</h5>
 						<p>$399 x 100g</p>
 
@@ -60,7 +60,7 @@ function Producto() {
 						</form>
 					</div>
 					<div>
-						<img src={"/img/almendra.jpg"}/>
+						<Image layout="fill" src={"/img/almendra.jpg"}/>
 						<h5>Almendras</h5>
 						<p>$350 x 100g</p>
 						

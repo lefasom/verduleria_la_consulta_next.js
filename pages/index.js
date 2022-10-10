@@ -18,7 +18,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.buscador} >
            <Link href="/Mapa">
-              <img src="/img/mapa2.png" alt=""/>
+              <Image layout="fill" src="/img/mapa2.png" alt=""/>
           </Link>
         </div> 
         <Nav />
