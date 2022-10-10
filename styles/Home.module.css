@@ -1,0 +1,43 @@
+
+.flex{
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url('/img/vegetables.webp');
+}
+
+.container{
+  margin:  auto;
+  user-select: none;
+  font-family: 'Poppins', sans-serif;
+
+  width: 90%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .09);
+  
+  box-shadow: 1px 1px 7px 3px #777;
+  /*overflow-y: hidden;
+  overflow-y: scroll;*/
+}
+.buscador{
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 90px;
+  right: 25px;
+  z-index: 99999;
+  border-radius: 100%;
+  object-fit: contain;
+  background-color: lightyellow;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid #666 ;
+
+
+}
+.buscador img{
+   width: 35px;
+  height: 35px;
+  margin: auto;
+}

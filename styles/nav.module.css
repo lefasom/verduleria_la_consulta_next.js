@@ -1,0 +1,113 @@
+.navContainer{
+	background-color: #fff;
+	width: 100%;
+	height: 249px;
+	display: flex;
+	flex-direction: column;
+
+}
+.navContainer input{
+	background-color: #fff;
+	margin: 15px auto;
+	padding: 5px 10px;
+	width: 85%;
+	border-radius: 5px;
+	outline-color: #5BB318;
+	border: 1px solid #5BB318;
+	font-size: 22px;
+}
+.navContainer input::placeholder{
+	font-size: 17px;
+	color: #aaa;
+}
+
+.circulo{
+	margin: 18px 55%;
+	border-radius: 100%;
+	height:64px;
+	width: 64px;
+	display: flex;
+	background: rgb(250,128,6);
+	background: radial-gradient(circle, rgba(250,128,6,0.9345372460496614) 78%, rgba(235,54,12,0.927765237020316) 100%);
+}
+
+.nombre h4{
+	margin: -5px auto;
+	margin-left: -76px;
+  	background: #1ee01a; /* fallback for old browsers */
+  	background: -webkit-linear-gradient(to right, #1ee01a, #256010); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to right, #1ee01a, #256010); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  	-webkit-background-clip: text;
+  	background-clip: text;
+  	color: transparent;
+  	color: transparent;
+	font-size: 22px;
+	font-family: poppins;
+	letter-spacing: 2px;
+}
+.navContainer nav{
+	margin: 15px auto;
+	display: flex;
+    background: rgb(4,205,122);
+	width: 90%;
+	padding: 5px;
+	border-radius: 20px;
+	justify-content: space-around;
+	box-shadow: 10px 20px 14px -6px rgba(30,120,120,0.44);
+	-webkit-box-shadow: 10px 20px 14px -6px rgba(30,120,120,0.44);
+	-moz-box-shadow: 10px 20px 14px -6px rgba(30,120,120,0.44);
+}
+.navContainer a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px;
+}
+.navInferiorContainer nav{
+	width: auto;
+    background: rgb(4,205,122);
+	padding: 10px;
+	display: flex;
+	border-radius: 0;
+	box-shadow: none;
+	margin-top: 22px;
+
+
+
+}
+.navInferiorContainer button{
+	margin: auto;
+	color: #fff;
+	text-align: center;
+	background-color: transparent;
+	border: 0;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+@media (min-width: 700px){
+	.circulo{
+	margin: 16px auto;
+	margin-right: 40%;
+	border-radius: 100%;
+	height:68px;
+	width: 68px;
+	display: flex;
+	background: rgb(250,128,6);
+	background: radial-gradient(circle, rgba(250,128,6,0.9345372460496614) 78%, rgba(235,54,12,0.927765237020316) 100%);
+	}
+	.nombre h4{
+		margin: 10px auto;
+		margin-left: -89px;
+		background: #1ee01a; /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #1ee01a, #256010); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #1ee01a, #256010); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		-webkit-background-clip: text;
+		background-clip: text;
+		color: transparent;
+		font-size: 25px;
+		font-family: poppins;
+		letter-spacing: 2px;
+	}
+}

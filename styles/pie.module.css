@@ -1,0 +1,30 @@
+.pieContainer{
+	background-color: #333;
+	padding: 29px;
+}
+.pieContainer li {
+	color: #5BB318 ;
+	padding: 5px 0;
+	font-size: 13px;
+
+}
+
+.pieContainer p {
+	color: #ccc;
+	font-family: monospace;
+	font-size: 17px;
+	text-align: center;
+}
+.pieContainer h5 {
+	color: #ccc;
+	font-family: poppins,monospace;
+	font-size: 12px;
+	text-align: center;
+}
+.pieContainer a{
+	color: #5BB318 ;
+	text-decoration: none;
+}
+.pieContainer a:hover{
+	color: #ccc;
+}

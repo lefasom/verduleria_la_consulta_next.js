@@ -1,0 +1,12 @@
+.containerWsp a{
+	cursor: pointer;
+}
+.containerWsp img{
+	width: 45px;
+}
+.containerWsp{
+	position: fixed;
+	bottom: 22px;
+	right: 25px;
+	z-index: 9999;
+}

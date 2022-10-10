@@ -1,0 +1,48 @@
+
+.mapaContainer p{
+	color: #333;
+	z-index: 99;
+	right: 8%;
+	font-weight: 600;
+	font-size: 15px;
+	font-family: poppins;
+	margin: 0;
+	padding: 5px;
+	margin: auto;
+	display: flex;
+
+
+	
+}
+.mapaContainer h5{
+	color: red;
+	z-index: 99;
+	right: 8%;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 0;
+	font-family: poppins;
+	padding: 5px;
+	margin: auto;
+	
+}
+
+
+.map{
+	width: 90%;
+	height: 400px;
+	z-index: 9;
+	margin: auto;
+}
+.fila{
+  display: flex;
+  background-color: #fff;
+}
+
+
+.mapaContainer .a a{
+	text-decoration: none;
+	font-size: 32px;
+	font-family: monospace;
+	padding: 5px 10px;
+}
