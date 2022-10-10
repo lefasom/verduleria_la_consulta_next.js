@@ -8,34 +8,34 @@ import Link from 'next/link'
 import styles from '/styles/mapa.module.css'
 
 function Mapa() {
-		const [ location, setLocation] = useState({
-			longitude: 0,
-			latitude: 0,
-		})
+		// const [ location, setLocation] = useState({
+		// 	longitude: 0,
+		// 	latitude: 0,
+		// })
 
-		useEffect(() => {
-			navigator.geolocation.getCurrentPosition(
-				function (position){
-					setLocation({
-						longitude: position.coords.longitude,
-						latitude: position.coords.latitude,
-					})
-				},
-				function (error){
-					console.log(error)
-				},
-				{
-					enableHighAccuracy: true
-				}
-				)
+		// useEffect(() => {
+		// 	navigator.geolocation.getCurrentPosition(
+		// 		function (position){
+		// 			setLocation({
+		// 				longitude: position.coords.longitude,
+		// 				latitude: position.coords.latitude,
+		// 			})
+		// 		},
+		// 		function (error){
+		// 			console.log(error)
+		// 		},
+		// 		{
+		// 			enableHighAccuracy: true
+		// 		}
+		// 		)
 			
-		},[])
+		// },[])
 	
-		   const atras = '<'
+		//    const atras = '<'
 	return (
 			<>
 				<div className={styles.mapaContainer}>
-					<div className={styles.a}>
+		{/*			<div className={styles.a}>
 						<Link href="/">
 							{atras}
 						</Link>
@@ -72,8 +72,8 @@ function Mapa() {
 					</MapContainer>
 				
 
-					
-
+					*/}
+mapa
 				</div>
 			</>
 	)
