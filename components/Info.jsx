@@ -9,7 +9,6 @@ function Info() {
 				<Image
 				className={styles.img} 
 				src={"/img/fruta-de-manzana.png"} 
-				alt="" 
 				width={100} 
 				height={70}
 				layout='responsive'
@@ -22,7 +21,6 @@ function Info() {
 				<Image
 				className={styles.img} 
 				src={"/img/reloj.png"} 
-				alt="" 
 				width={100} 
 				height={70}
 				layout='responsive'
@@ -34,7 +32,6 @@ function Info() {
 				<Image
 				className={styles.img} 
 				src={"/img/tarjeta-de-credito.png"} 
-				alt="" 
 				width={100} 
 				height={70}
 				layout='responsive'

@@ -21,7 +21,7 @@ function Blog() {
 				</p>
 			</div>*/}
 			<div className={styles.vida}>
-				<Image src={"/img/jengibre.webp"} alt="" width={500} height={350}/>	
+				<Image src={"/img/jengibre.webp"}  width={500} height={350}/>	
 				<div className={styles.link}>
 					<h3>11 Beneficios probados del jengibre para la salud</h3>
 					<a href="https://www.healthline.com/health/es/beneficios-del-jengibre">Leer</a>
@@ -35,7 +35,7 @@ function Blog() {
 				</p>
 			</div>
 			<div className={styles.vida}>
-				<Image src={"/img/kale.webp"} alt="" width={500} height={350}/>
+				<Image src={"/img/kale.webp"} width={500} height={350}/>
 				<div className={styles.link}>
 					<h3>Superalimento Kale: beneficios, recetas y tips</h3>
 					<a href="https://www.recepedia.com/es-ar/trucos-y-tips/la-verdura-que-se-volvio-tendencia-kale/">Leer</a>

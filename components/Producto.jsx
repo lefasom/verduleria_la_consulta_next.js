@@ -42,7 +42,7 @@ function Producto() {
 				}
 			`}</style>
 			<div className={styles.carrito}>
-				<Image layout="fill" onClick={()=>setCarrito(!carrito)} src={"/img/cesta-de-la-compra.png"} alt="" />
+				<Image layout="fill" onClick={()=>setCarrito(!carrito)} src={"/img/cesta-de-la-compra.png"}  />
 			</div>
 			
 			<div className={styles.productoContainer}>
