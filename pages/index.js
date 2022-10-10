@@ -1,5 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
+// Node.js program to demonstrate the
+// process.traceDeprecation Property
+
+// Include process module
+const process = require('process');
+
+// Printing process.traceDeprecation property value
+console.log(process.traceDeprecation);
 
 
 import Nav from '../components/Nav.jsx'
