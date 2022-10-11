@@ -4,10 +4,10 @@ import Link from 'next/link'
 // process.traceDeprecation Property
 
 // Include process module
-const process = require('process');
+// const process = require('process');
 
-// Printing process.traceDeprecation property value
-console.log(process.traceDeprecation);
+// // Printing process.traceDeprecation property value
+// console.log(process.traceDeprecation);
 
 
 import Nav from '../components/Nav.jsx'
@@ -24,11 +24,11 @@ export default function Home() {
   return (
     <div className={styles.flex}>
       <div className={styles.container}>
-        <div className={styles.buscador} >
+      {/*  <div className={styles.buscador} >
            <Link href="/Mapa">
               <Image layout="fill" src="/img/mapa2.png" />
           </Link>
-        </div> 
+        </div> */}
         <Nav />
         <Producto />
         {/*<Info />*/}
