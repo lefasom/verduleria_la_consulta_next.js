@@ -24,11 +24,11 @@ export default function Home() {
   return (
     <div className={styles.flex}>
       <div className={styles.container}>
-      {/*  <div className={styles.buscador} >
+        <div className={styles.buscador} >
            <Link href="/Mapa">
-              <Image layout="fill" src="/img/mapa2.png" />
+              <img layout="fill" src="/img/mapa2.png" />
           </Link>
-        </div> */}
+        </div> 
         <Nav />
         <Producto />
         {/*<Info />*/}

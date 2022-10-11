@@ -9,7 +9,7 @@ import Cart from './Cart.jsx'
 
 function Producto() {
 	const [ cantidad, setCantidad ] = useState(0)
-	const [ carrito, setCarrito ] = useState(true)
+	const [ carrito, setCarrito ] = useState(false)
 
 	const [ canasta, setCanasta ] = useState([])
 	const nombreFrutilla = 'Frutilla'
@@ -42,14 +42,14 @@ function Producto() {
 				}
 			`}</style>
 			<div className={styles.carrito}>
-				<Image layout="fill" onClick={()=>setCarrito(!carrito)} src={"/img/cesta-de-la-compra.png"}  />
+				<img onClick={()=>setCarrito(!carrito)} src={"/img/cesta-de-la-compra.png"}  />
 			</div>
 			
 			<div className={styles.productoContainer}>
 				<h2 id="pdet">Productos de temporada</h2>
 				<div className={styles.productos}>
 					<div>
-						<Image layout="fill" src={"/img/frutilla.webp"}/>
+						<img layout="fill" src={"/img/frutilla.webp"}/>
 						<h5>Frutilla mendocina</h5>
 						<p>$399 x 100g</p>
 
@@ -60,7 +60,7 @@ function Producto() {
 						</form>
 					</div>
 					<div>
-						<Image layout="fill" src={"/img/almendra.jpg"}/>
+						<img layout="fill" src={"/img/almendra.jpg"}/>
 						<h5>Almendras</h5>
 						<p>$350 x 100g</p>
 						
