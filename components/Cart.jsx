@@ -13,7 +13,7 @@ function Cart(props) {
 	return (<>
 
 			<div className={styles.cartContainer}>
-				<h2>Canasta ()</h2>
+				<h2>Carrito</h2>
 			 	<div className={styles.cart}>
 				 	{canasta.map( (val,index) => {
 						return(

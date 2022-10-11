@@ -99,21 +99,152 @@
 }
 .control {
 	display: flex;
-	border: 1px solid #ccc;
-	width: 100px;
+	border: 1px solid #25CC0F;
+	width: 240px;
 	margin: 10px;
 	border-radius: 10px;
-
+	background-color: #25CC0F;
 }
 .control input{
 	width: 50px;
 	height: 30px;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
+	border: 1px solid #25CC0F;
+
 
 }
-.control p{
-	color: #25CC0F;
-	padding: 0 6px;
+.control h3{
+	color: #fff;
+
+	font-size: 15px;
 	cursor: pointer;
+	margin: auto;
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+/*carrito*/
+
+.cartContainer{
+    background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+}
+
+.cart{
+
+	background-color: #fff;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: auto;
+	border-radius: 20px;
+	box-shadow: 4px 4px 7px 1px #777;
+	height: 240px;
+	overflow-y: hidden;
+	overflow-y: scroll;
+
+}
+.cartContainer h2{
+
+	margin: 10px auto;
+	margin-bottom: 39px;
+	font-size: 22px;
+	color: rgb(4,205,122);
+
+
+
+}
+.btnOcultar {
+	display: flex;
+	justify-content: flex-end;
+}
+.btnOcultar button{
+	background-color: transparent;
+	border: 0;
+	color: purple;
+	padding: 4px;
+}
+.cart .producto{
+	display: flex;
+	justify-content: space-around;
+	margin: 5px;
+	border: 1px solid #eee;
+
+
+}
+.cart .resta{
+	display: flex;
+}
+.cart h4{
+	font-size: 13px;
+	padding: 0;
+	margin: auto 0;
+	text-transform: none;
+	font-family: poppins;
+}
+.cart h5{
+	font-size: 10px;
+	padding: 0;
+	margin: auto 0;
+}
+.cart p{
+	font-size: 12px;
+	padding: 0;
+	margin: auto 0;
+	color: rgb(4,205,122);
+	font-weight: 400;
+}
+.cart p span{
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	color: #333;
+	font-weight: 400;
+}
+.cart button{
+	padding: 0;
+	margin: 0;	
+	width: 10px;
+	height: 19px;
+	font-weight: 500;
+	font-size: 18px;
+	border: 0;
+	color: red;
+	background-color: transparent;
+	position: relative;
+	top: -5px;
+
+
+}
+
+.total{
+	background-color: #fff;
+	color: #333;
+	border-radius: 20px;
+	width: 60%;
+	margin: 20px auto;
+	padding: 10px;
+	font-weight: 999;
+	box-shadow: 4px 4px 7px 1px #777;
+	text-align: center;
+
+}
+.total b{
+	color: rgb(4,205,122);
+	margin: 0 10px;
+}
+.cartContainer a{
+	text-decoration: none;
+	font-size: 32px;
+	font-family: monospace;
+	margin: 5px 10px;
 }
