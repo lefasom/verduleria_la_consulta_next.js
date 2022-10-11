@@ -11,7 +11,7 @@
 		margin-top: 33px;
 
 	font-size: 22px;
-	background: #25CC0F;
+	background: #5BB318;
 	background: linear-gradient(to bottom right, #25CC0F 27%, #669E22 53%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -31,7 +31,7 @@
 	display: flex;
 	flex-direction: column;
 	width: 90%;
-	border-bottom: 1px solid #25CC0F;
+	border-bottom: 1px solid #5BB318;
 	margin: 20px 0;
 	padding: 10px;
 	box-shadow: 4px 4px 7px 1px #777;
@@ -58,7 +58,7 @@
 	font-size: 18px;
 	margin: 0 10px;
 	font-weight: 333;
-	color: #25CC0F;
+	color: #5BB318;
 
 }
 @media(min-width: 700px){
@@ -99,18 +99,18 @@
 }
 .control {
 	display: flex;
-	border: 1px solid #25CC0F;
+	border: 1px solid #5BB318;
 	width: 240px;
 	margin: 10px;
 	border-radius: 10px;
-	background-color: #25CC0F;
+	background-color: #5BB318;
 }
 .control input{
 	width: 50px;
 	height: 30px;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
-	border: 1px solid #25CC0F;
+	border: 1px solid #5BB318;
 
 
 }
