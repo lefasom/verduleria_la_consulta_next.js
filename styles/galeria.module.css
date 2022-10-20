@@ -21,6 +21,7 @@
 }
 .parent div{
 	display: flex;
+	/*margin: 10px;*/
 }
 .parent div img{
 	object-fit: cover;
@@ -41,6 +42,7 @@
 		background: #fff;
 		-webkit-box-shadow: 3px -3px 4px -1px rgba(35,15,5,0.68) ;
 		box-shadow: 3px 5px 5px -1px rgba(35,15,5,0.68);
+	
 	}
 @media (min-width:600px){
 	.parent {

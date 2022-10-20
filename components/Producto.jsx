@@ -47,6 +47,7 @@ function Producto() {
 	}
 	return (
 		<>
+
 			{/*<div className={'num'+carrito}>
 				<div className={styles.cartContainer}>
 				<h2>Carrito</h2>
@@ -90,7 +91,9 @@ function Producto() {
 			</div>*/}
 			
 			<div className={styles.productoContainer}>
-				<h2 id="pdet">Productos de temporada</h2>
+				<div className={styles.titulo}>
+					<img src="/img/pina.png" alt="" />
+				</div>
 				<div className={styles.productos}>
 					<div>
 						<img layout="fill" src={"/img/frutilla.webp"}/>

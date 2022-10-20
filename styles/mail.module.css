@@ -1,8 +1,21 @@
+.titulo{
+	background-color: rgba(275, 275, 275, .2);
+	display: flex;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+
+}
+.titulo img{
+	margin: 20px auto;
+	width: 60px;
+}
 .form{
+
 	display: flex;
 	flex-direction: column;
 	box-shadow: 4px 4px 7px 1px #777;
-	border-radius: 10px;
+	
 	background-color: #fff;
 
 
@@ -17,8 +30,6 @@
 }
 .form button{
 	padding: 5px;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
 }
 
 .formContainer{
