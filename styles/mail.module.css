@@ -8,7 +8,7 @@
 }
 .titulo img{
 	margin: 20px auto;
-	width: 60px;
+	width: 70px;
 }
 .form{
 
@@ -29,7 +29,14 @@
 
 }
 .form button{
-	padding: 5px;
+	padding: 10px;
+	border: 0;
+	background-color: #ccc;
+
+}
+.form button:active{
+	padding: 10px;
+	background-color: #ddd;
 }
 
 .formContainer{
