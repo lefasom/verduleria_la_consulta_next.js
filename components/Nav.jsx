@@ -22,8 +22,8 @@ function Nav() {
 			<div className={styles.navInferiorContainer}>
 				<nav>
 					<Link href="#Galeria">Galeria</Link>
-					<Link href="#blog">Blog</Link>
-					<Link href="#mail">Reseña</Link>
+					<Link href="#Blog">Blog</Link>
+					<Link href="#email">Email</Link>
 				</nav>
 			</div>
 				

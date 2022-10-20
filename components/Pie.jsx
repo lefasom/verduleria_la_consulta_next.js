@@ -12,12 +12,12 @@ function Pie() {
 					<li>Instagram: laconsultaMarket@</li>
 					<li>Mail: laconsultaMarket@gmail.com</li>
 				</ul>
-				<h5>Creadores:</h5>
+			{/*	<h5>Creadores:</h5>
 				<ul>
 					<li>
 						<a href="https://www.flaticon.es/iconos-gratis/supermercado" title="supermercado iconos">s-website - strive for progress</a>
 					</li>
-				</ul>
+				</ul>*/}
 				<h5>Colaboradores:</h5>
 				<ul>
 					<li>

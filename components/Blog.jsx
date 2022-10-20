@@ -7,7 +7,7 @@ function Blog() {
 	return (
 
 		<div className={styles.blog}>
-			<div className={styles.titulo}>
+			<div id="Blog" className={styles.titulo}>
 				<img src="/img/articulo.png" alt="" />
 			</div>
 		<div className={styles.blogContainer}>
