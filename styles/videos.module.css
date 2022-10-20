@@ -1,0 +1,14 @@
+/*.videoContainer {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.videoContainer div{
+	display: flex;
+}
+.videoContainer div video{
+	margin: auto;
+	width: 33vw;
+	height: auto;
+	padding: 35px;
+}
+*/

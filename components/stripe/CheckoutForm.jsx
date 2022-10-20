@@ -29,6 +29,7 @@ function CheckoutForm() {
 				Buy
 			</button>
 			<style jsx>{`
+				
 				.card{
 					width: 90%;
 					margin: 0 auto;

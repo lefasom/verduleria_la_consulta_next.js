@@ -21,7 +21,7 @@ function Nav() {
 			</div>
 			<div className={styles.navInferiorContainer}>
 				<nav>
-					<Link href="#">Galeria</Link>
+					<Link href="#Galeria">Galeria</Link>
 					<Link href="#blog">Blog</Link>
 					<Link href="#mail">Reseña</Link>
 				</nav>

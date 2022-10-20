@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Stripe from './stripe/Stripe.jsx'
+// import Stripe from './stripe/Stripe.jsx'
 import styles from '/styles/producto.module.css'
 import React,{ useState } from 'react'
 import Router from 'next/router'
@@ -47,7 +47,7 @@ function Producto() {
 	}
 	return (
 		<>
-			<div className={'num'+carrito}>
+			{/*<div className={'num'+carrito}>
 				<div className={styles.cartContainer}>
 				<h2>Carrito</h2>
 			 	<div className={styles.cart}>
@@ -72,10 +72,11 @@ function Producto() {
 				})}
 
 				<div className={styles.total}>Total a Pagar: <b>${total}</b></div>
-				<Stripe />
+				<<Stripe />
 			</div>
 			</div>
-			<style jsx>{`
+		*/}
+		{/*	<style jsx>{`
 
 				.numfalse{
 					display: none
@@ -83,10 +84,10 @@ function Producto() {
 				.numtrue{
 					display: block
 				}
-			`}</style>
-			<div className={styles.carrito}>
+			`}</style>*/}
+			{/*<div className={styles.carrito}>
 				<img onClick={()=>setCarrito(!carrito)} src={"/img/carrito-de-supermercado.png"}  />
-			</div>
+			</div>*/}
 			
 			<div className={styles.productoContainer}>
 				<h2 id="pdet">Productos de temporada</h2>
@@ -97,20 +98,20 @@ function Producto() {
 						<p>$399 x 100g</p>
 
 						
-						<form className={styles.control}>
+						{/*<form className={styles.control}>
 							<input onChange={(e)=>setCantidad(e.target.value)} type="number" />
 							<h3 onClick={()=>add(nombreFrutilla,precioFrutilla)}>Agregar al Carrito</h3>
-						</form>
+						</form>*/}
 					</div>
 					<div>
 						<img layout="fill" src={"/img/almendra.jpg"}/>
 						<h5>Almendras</h5>
 						<p>$350 x 100g</p>
 						
-						<form className={styles.control}>
+					{/*	<form className={styles.control}>
 							<input onChange={(e)=>setCantidad(e.target.value)} type="number" />
 							<h3 onClick={()=>add(nombreAlmendra,precioAlmendra)}>Agregar al Carrito</h3>
-						</form>
+						</form>*/}
 					</div>
 				
 					
