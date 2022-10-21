@@ -69,7 +69,8 @@
 	font-size: 14px;	
 	font-weight: 300;
 	color: #333;
-	height: 170px;
+	height: 110%;
+	padding-bottom: 20px;
 }
 .blogContainer .vida a{
 	text-align: left;

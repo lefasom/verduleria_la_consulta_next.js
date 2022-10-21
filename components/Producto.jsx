@@ -94,33 +94,44 @@ function Producto() {
 				<div className={styles.titulo}>
 					<img src="/img/pina.png" alt="" />
 				</div>
-				{/*<div className={styles.productos}>*/}
-				<Slider />
-				{/*	<div>
+				<div className={styles.productos}>
+				{/*<Slider />*/}
+					<div>
 						<img layout="fill" src={"/img/frutilla.webp"}/>
 						<h5>Frutilla mendocina</h5>
-						<p>$399 x 100g</p>
+						<p>$599 x kilo</p>
 
 						
-					<form className={styles.control}>
+					{/*<form className={styles.control}>
 							<input onChange={(e)=>setCantidad(e.target.value)} type="number" />
 							<h3 onClick={()=>add(nombreFrutilla,precioFrutilla)}>Agregar al Carrito</h3>
-						</form>
+						</form>*/}
 					</div>
 					<div>
 						<img layout="fill" src={"/img/almendra.jpg"}/>
 						<h5>Almendras</h5>
 						<p>$350 x 100g</p>
 						
-					<form className={styles.control}>
+					{/*<form className={styles.control}>
 							<input onChange={(e)=>setCantidad(e.target.value)} type="number" />
 							<h3 onClick={()=>add(nombreAlmendra,precioAlmendra)}>Agregar al Carrito</h3>
-						</form>
-					</div>*/}
+						</form>*/}
+					</div>
+						<div>
+						<img layout="fill" src={"/img/naranja.jpg"}/>
+						<h5>Naranja</h5>
+						<p>$140 x kilo</p>
+						
+					{/*<form className={styles.control}>
+							<input onChange={(e)=>setCantidad(e.target.value)} type="number" />
+							<h3 onClick={()=>add(nombreAlmendra,precioAlmendra)}>Agregar al Carrito</h3>
+						</form>*/}
+					</div>
+
 
 				
 					
-				{/*</div>*/}
+				</div>
 			</div>
 	    </>
 	)
