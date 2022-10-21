@@ -4,11 +4,14 @@ import styles from '/styles/nav.module.css'
 
 function Nav() {
 	return (
-		<>
+		
 		<div className={styles.navContainer}>
-		    <nav>
-				<Link href="#contacto">contacto</Link>
+		  <div className={styles.div}>  
+		  <nav>
+				
+				<Link href="#Galeria">Galeria</Link>
 				<Link href="#">Ubicacion</Link>
+				<Link href="#email">Email</Link>
 			</nav>
 			<div>
 				{/*<span>Facebook</span>
@@ -19,18 +22,18 @@ function Nav() {
 					</div>
 				</div>
 			</div>
-			<div className={styles.navInferiorContainer}>
+		{/*	<div className={styles.navInferiorContainer}>
 				<nav>
 					<Link href="#Galeria">Galeria</Link>
 					<Link href="#Blog">Blog</Link>
 					<Link href="#email">Email</Link>
 				</nav>
-			</div>
+			</div>*/}
 				
 		</div>
 		
 
-		</>
+		</div>
 	)
 }
 

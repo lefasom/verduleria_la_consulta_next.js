@@ -44,7 +44,7 @@
 		box-shadow: 3px 5px 5px -1px rgba(35,15,5,0.68);
 	
 	}
-@media (min-width:600px){
+@media (min-width: 700px){
 	.parent {
 		background-color: rgba(275, 275, 275, .8);
 		display: grid;

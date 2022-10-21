@@ -2,9 +2,10 @@ import React,{useEffect} from 'react'
 
 
 
-function Slider() {
+function SliderVideos() {
+
 useEffect(() => {
-	const slider = document.querySelector("#slider");
+const slider = document.querySelector("#slider");
 let sliderSection = document.querySelectorAll(".slider__section");
 let sliderSectionLast = sliderSection[sliderSection.length -1];
  
@@ -107,6 +108,7 @@ btnLeft.addEventListener('click', function(){
 
 
           }
+
           .slider{
 
             display: flex;
@@ -123,9 +125,9 @@ btnLeft.addEventListener('click', function(){
             position: relative;
             background:#fff;
             margin: auto;
-            box-shadow: 3px 0px 10px 0px rgba(0,0,0,0.5);
-            -webkit-box-shadow: 3px 0px 10px 0px rgba(0,0,0,0.5);
-            -moz-box-shadow: 3px 0px 10px 0px rgba(0,0,0,0.5);
+              box-shadow: 3px 0px 10px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 3px 0px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 3px 0px 10px 0px rgba(0,0,0,0.5);
 
           }
           .slider__section h5{
@@ -173,8 +175,6 @@ btnLeft.addEventListener('click', function(){
   -moz-box-shadow: 3px 0px 10px 0px rgba(0,0,0,0.5);
 
           }
-
-
           .slider__section h5{
                 font-size: 17px;
                 margin: 0 15px;
@@ -197,7 +197,7 @@ btnLeft.addEventListener('click', function(){
           }
 
  
-    }
+        }
 
 
           .slider__btn{
@@ -252,4 +252,4 @@ btnLeft.addEventListener('click', function(){
 	</>	)
 }
 
-export default Slider
+export default SliderVideos
