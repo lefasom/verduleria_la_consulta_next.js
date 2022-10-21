@@ -41,16 +41,16 @@
 	/*border-radius: 20px;*/
 	display: flex;
 	flex-direction: column;
-	width: 90%;
+	width: 85%;
 	border-bottom: 1px solid #25CC0F;
-	margin: 20px 0;
-	padding: 10px;
+	margin: 5px 0;
+	padding: 20px;
 	box-shadow: 4px 4px 7px 1px #777;
 	
 }
 .productoContainer .productos div img{
-	width: 95%;
-	height: 240px;
+	width: 90%;
+	height: 230px;
 	object-fit: contain;
 	margin: auto;
 	/*border: 1px solid #c1c1c1;*/
