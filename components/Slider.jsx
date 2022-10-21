@@ -204,7 +204,7 @@ btnLeft.addEventListener('click', function(){
             position: absolute;
             width: 40px;
             height: 40px;
-            background: rgb(1,1,1,0.3);
+            background: rgb(33,33,33,0.2);
             top: 50%; 
             transform: translateY(-50%);
             font-size: 30px;
