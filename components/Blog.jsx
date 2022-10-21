@@ -13,7 +13,7 @@ function Blog() {
 		<div className={styles.blogContainer}>
 			<div>
 				<div className={styles.vida}>
-					<Image src={"/img/kale.webp"} width={500} height={350}/>
+					<Image src={"/img/kale.webp"} width={550} height={350}/>
 					<div className={styles.link}>
 						<h3>Superalimento Kale: beneficios, recetas y tips</h3>
 						<a href="https://www.recepedia.com/es-ar/trucos-y-tips/la-verdura-que-se-volvio-tendencia-kale/">Leer</a>

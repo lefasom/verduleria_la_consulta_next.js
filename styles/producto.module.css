@@ -30,7 +30,7 @@
 }
 .productoContainer .productos{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
 	justify-content: space-between;
 	margin: 10px 0;
 
@@ -41,7 +41,7 @@
 	/*border-radius: 20px;*/
 	display: flex;
 	flex-direction: column;
-	width: 95%;
+	width: 90%;
 	border-bottom: 1px solid #25CC0F;
 	margin: 20px 0;
 	padding: 10px;
@@ -49,11 +49,11 @@
 	
 }
 .productoContainer .productos div img{
-	width: 90%;
+	width: 95%;
 	height: 240px;
 	object-fit: contain;
 	margin: auto;
-	border: 1px solid #c1c1c1;
+	/*border: 1px solid #c1c1c1;*/
 	margin: 10px;
 
 

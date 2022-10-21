@@ -8,7 +8,7 @@ function Galeria() {
 		<div id="Galeria">
 
 			<div className={styles.titulo}><img src="/img/camera (1).png" alt=""/></div>
-			<div className={styles.parent}>
+			<div className={styles.parentImg}>
 				<div>
 					<img src="/img/jugo.webp" alt="producto" />
 				</div>
