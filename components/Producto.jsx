@@ -36,7 +36,7 @@ function Producto() {
 	return (
 	<>
 			<div className={styles.indicadorNext}>
-				<p>{">"}</p>
+				<p>{"Productos ➟"}</p>
 			</div>	
 			<div className={styles.productoContainer}>
 			
