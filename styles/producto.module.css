@@ -15,17 +15,17 @@
 
 }
 .indicadorNext p{
-	width: 50px;
-	height: 50px;
+	width: 26px;
+	height: 26px;
 	margin: 10px auto;
 	border-radius: 100%;
 	background-color: rgba(275,275,275, .8);
 	margin: 0;
-	font-size: 40px;
+	font-size: 20px;
 	font-family: monospace;
 	text-align: center;
 	color: #777;
-	font-weight: 700;
+	font-weight: 400;
 
 
 }
@@ -60,7 +60,7 @@
 	/*border-radius: 20px;*/
 	display: flex;
 	flex-direction: column;
-	width: 90%;
+	width: 100%;
 	margin-left: 20px;
 	padding: 20px;
 	box-shadow: 4px 4px 7px 1px #777;
