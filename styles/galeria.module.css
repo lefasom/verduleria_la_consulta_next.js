@@ -1,17 +1,21 @@
 .titulo{
 	background-color: rgba(275, 275, 275, .8);
 	display: flex;
-	margin-top: 10px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
+	margin: 20px auto;
+	
+
+	
+
 
 }
 .titulo img{
-	margin: 15px auto;
+
+	margin: 20px auto;
 	width: 60px;
+
 }
 	.parent {
-		background-color: rgba(275, 275, 275, .8);
+		background-color: rgba(275, 275, 275, .1);
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -33,7 +37,7 @@
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	padding: 5px 0;
-	background-color: rgba(275, 275, 275, .8);
+    background-color: rgba(275, 275, 275, .1);
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 
@@ -49,19 +53,65 @@
 	height: 280px;
 	padding: 5%;
 	background: #fff;
+
 	-webkit-box-shadow: 3px -3px 4px -1px rgba(35,15,5,0.68) ;
 	box-shadow: 3px 5px 5px -1px rgba(35,15,5,0.68);
+}
+.parent button{
+	background-color: rgba(275, 275, 275, .8);
+	border: 0;
+	font-size: 17px;
+	margin: 10px auto;
+	font-weight: 488;
+	font-family: poppins;
+	color:purple; 
+	width: auto;
+	padding: 5px;
+	border-radius: 20px;
+
+	cursor: pointer;
+}
+.parentImg button{
+	background-color: rgba(275, 275, 275, .8);
+	border: 0;
+	font-size: 17px;
+	margin: 10px auto;
+	font-weight: 488;
+	font-family: poppins;
+	color: purple; 
+	width: auto;
+	padding: 5px;
+	border-radius: 20px;
+
+	cursor: pointer;
 }
 
 	
 @media (min-width: 700px){
 	.parentImg {
-		background-color: rgba(275, 275, 275, .8);
+		background-color: rgba(275, 275, 275, .1);
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 	}
+	.parentImg button{
+		height: 50px;
+		margin: auto;
+
+	}
+	.parent button{
+		height: 50px;
+		margin: auto;
+	}
+	.parent button:hover{
+		background-color: rgba(275, 275, 275, .6)
+	}
+	.parentImg button:hover{
+		background-color: rgba(275, 275, 275, .6)
+	}
 	.parentImg div{
 		display: flex;
+		margin-left: 20px;
+		
 	}
 	.parentImg div img{
 		object-fit: cover;
@@ -84,12 +134,13 @@
 		box-shadow: 3px 5px 5px -1px rgba(35,15,5,0.68);
 	}
 	.parent {
-		background-color: rgba(275, 275, 275, .8);
+		background-color: rgba(275, 275, 275, .1);
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 	}
 	.parent div{
 		display: flex;
+		margin-left: 20px;
 	}
 	.parent div img{
 		object-fit: cover;

@@ -19,9 +19,12 @@ function Mail() {
 	return (
 		<div className={styles.formContainer}>
 			
-			<div id="email" className={styles.titulo}><img src="/img/email.png" alt=""/></div>
+			<div id="email" className={styles.titulo}>
+				<img src="/img/email.png" alt=""/>
+			</div>
 			
 			<form className={styles.form} ref={form}>
+			<h4>Contactanos</h4>
 			<input type="mail" placeholder="Email" name="email" />
 			<input type="text" placeholder="Nombre" name="name" />
 			<input type="text" placeholder="Mensaje" name="message" />

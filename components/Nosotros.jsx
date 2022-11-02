@@ -5,23 +5,21 @@ function Nosotros() {
 	return (
 		<div id="nosotros"className={styles.nosotrosContainer}>
 			<div className={styles.nosotros}>
-				
 				<h4>¿Quienes Somos?</h4>
+			</div>
+			<div className={styles.nosotros}>
 				<p>
-					La verduleria La Consulta nacio hace 15 años.
-					
-					
-					<br/>
-					<br/>
-					Hoy contamos con una gran experiencia en el mercado,
-					<br/> para traerte la mayor variedad de producto posibles al mejor precio.
-					
-					
-					<br/>
-					<br/>
-
-					Además contamos con la mejor atencion que puedas tener, ofreciendote no solo un buen producto, 
-					<br/>sino tambien sacandote cualquier tipo de dudas dentro de nuestro rubro.
+					La<span> verduleria La Consulta</span> se fundo hace 15 años.
+				</p>
+			</div>
+			<div className={styles.nosotros}>
+				<p>
+					 Te trae la mayor variedad de producto posibles al mejor precio.
+				</p>
+			</div>
+			<div className={styles.nosotros}>
+				<p>
+					Además cuenta con la mejor atencion que puedas tener.
 				</p>
 			</div>
 		</div>

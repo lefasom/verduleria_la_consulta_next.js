@@ -8,7 +8,8 @@ import Producto from '../components/Producto.jsx'
 import Pie from '../components/Pie.jsx'
 import Mail from '../components/Mail.jsx'
 import Nosotros from '../components/Nosotros.jsx'
-import Galeria from './Galeria.jsx'
+import Galeria from '../components/Galeria.jsx'
+import Videos from '../components/Videos.jsx'
 
 
 import styles from '../styles/Home.module.css'
@@ -23,12 +24,14 @@ export default function Home() {
   return (
     <div className={styles.flex}>
       <div className={styles.container}>
+        {/*<SliderMio />*/}
         <Nav />
         <Producto />
         <Galeria />
+        <Videos />
         <Nosotros />
         <WSP />
-        <Blog />
+        {/*<Blog />*/}
         <Mail />
         <Pie />
       </div>
