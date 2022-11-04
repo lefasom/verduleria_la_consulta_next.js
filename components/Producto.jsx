@@ -30,6 +30,11 @@ function Producto() {
 		img:"/img/jengibre.webp",
 		description:"Jengibre",
 		precio:"$600 x kilo"
+	},
+	{
+		img:"/img/jengibre.webp",
+		description:"Jengibre",
+		precio:"$600 x kilo"
 	}
 	]
 

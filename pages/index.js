@@ -24,14 +24,12 @@ export default function Home() {
   return (
     <div className={styles.flex}>
       <div className={styles.container}>
-        {/*<SliderMio />*/}
         <Nav />
         <Producto />
         <Galeria />
         <Videos />
         <Nosotros />
         <WSP />
-        {/*<Blog />*/}
         <Mail />
         <Pie />
       </div>

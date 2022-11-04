@@ -1,30 +1,64 @@
 .pieContainer{
 	background-color: #333;
 	padding: 29px;
+		display: flex;
+	flex-direction: column;
 }
-.pieContainer li {
+.pieContainer .flex{
+	display: flex;
+	flex-direction: column;
+}
+.pieContainer li{
+	display: flex;
+	height: 30px;
+	margin: 2px;
+
+}
+.pieContainer h6{
+	margin: 0;
 	color: #5BB318 ;
 	padding: 5px 0;
 	font-size: 13px;
 
 }
+.pieContainer img{
+	margin-top: 3px;
+	margin-right: 5px;
+ 	width: 20px;
+ 	height: 20px;
+ }
 
 .pieContainer p {
 	color: #ccc;
+	margin: 2px 5px;
 	font-family: monospace;
-	font-size: 17px;
+	font-size: 13px;
 	text-align: center;
 }
 .pieContainer h5 {
 	color: #ccc;
 	font-family: poppins,monospace;
 	font-size: 12px;
-	text-align: center;
+	margin-left: 40px;
 }
 .pieContainer a{
 	color: #5BB318 ;
 	text-decoration: none;
+	display: flex;
 }
 .pieContainer a:hover{
 	color: #ccc;
+}
+@media (min-width: 800px){
+	.pieContainer .flex{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+	.pieContainer h5 {
+	color: #ccc;
+	font-family: poppins,monospace;
+	font-size: 12px;
+		margin-left: 80px;
+
+}
 }
