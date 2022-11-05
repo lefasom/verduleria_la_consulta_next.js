@@ -13,7 +13,7 @@ function Producto() {
 
 	setTimeout(function animation(){
 			setGifs('containerOff')
-		}, 3000)
+		}, 2000)
 
 	const Giffer = () => {
 		return(
@@ -29,22 +29,25 @@ function Producto() {
 					display: flex;
 				}
 				.on{
-					display:flex;
 					margin:auto;
+					display:flex;
 					position: relative;
-					top:70px;
+					border-radius:100%;
 					background: #fff;
-					width: 90%;
-					opacity: .3;
-					height:300px
+					top: 150px;
+
+					width: 100px;
+					height: 100px;
+
+					opacity: .4;
 				
 				}
 				.on img{
 					
-					height: 120px;
+					height: 80px;
 					
 					margin:auto;
-					margin-top:100px;
+					
 				
 					opacity:.9
 				}
