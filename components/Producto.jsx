@@ -13,7 +13,7 @@ function Producto() {
 
 	setTimeout(function animation(){
 			setGifs('containerOff')
-		}, 3000)
+		}, 4000)
 
 	const Giffer = () => {
 		return(
