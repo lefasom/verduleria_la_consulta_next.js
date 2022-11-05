@@ -26,7 +26,10 @@ function Pie() {
 				<h5>Creador</h5>
 				<ul>
 					<li>
-						<a href="https://www.flaticon.es/iconos-gratis/supermercado" title="supermercado iconos">s-Website<p>strove in the progress</p></a>
+						<a href="https://www.flaticon.es/iconos-gratis/supermercado" title="supermercado iconos">
+							s-Website
+						</a>
+						<p>strove in the progress</p>
 					</li>
 				</ul>
 			</div>
