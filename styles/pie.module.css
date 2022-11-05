@@ -10,9 +10,13 @@
 }
 .pieContainer li{
 	display: flex;
-	flex-direction: column;
 	height: 30px;
 	margin: 2px;
+
+}
+.pieContainer .li{
+	display: flex;
+	flex-direction: column;
 
 }
 .pieContainer h6{
