@@ -13,7 +13,7 @@ function Producto() {
 
 	setTimeout(function animation(){
 			setGifs('containerOff')
-		}, 2000)
+		}, 3000)
 
 	const Giffer = () => {
 		return(
@@ -48,7 +48,7 @@ function Producto() {
 				`}</style>
 			<div className={gifs}>
 				<div className="on">
-					<img src="/img/touch.gif" alt="" />
+					<img src="/img/drag2.gif" alt="" />
 				</div>
 			</div>
 		</>)
@@ -86,7 +86,7 @@ function Producto() {
 		
 			<Giffer />
 			<div className={styles.indicadorNext}>
-				<p>{"← Desplazar"}</p>
+				<p>{"⬅ Desplazar"}</p>
 			</div>	
 			<div className={styles.productoContainer}>
 			
