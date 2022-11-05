@@ -1,7 +1,7 @@
 import Image from 'next/image'
 // import Stripe from './stripe/Stripe.jsx'
 import styles from '/styles/producto.module.css'
-import React,{ useState } from 'react'
+import React, { useState } from 'react'
 import Router from 'next/router'
 import Link from 'next/link'
 import Slider from './Slider.jsx'
@@ -9,7 +9,54 @@ import Slider from './Slider.jsx'
 
 
 function Producto() {
+	const [ gifs, setGifs ] = useState('containerOn')
 
+	setTimeout(function animation(){
+			setGifs('containerOff')
+		}, 3000)
+
+	const Giffer = () => {
+		return(
+			<>
+			<style jsx>{`
+
+				.containerOff{
+					display:none;
+				}
+				.containerOn{
+					position:absolute;
+					width: 95%;
+					display: flex;
+				}
+				.on{
+					display:flex;
+					margin:auto;
+					position: relative;
+					top:70px;
+					background: #fff;
+					width: 90%;
+					opacity: .5;
+					height:300px
+				
+				}
+				.on img{
+					
+					height: 120px;
+					
+					margin:auto;
+					margin-top:100px;
+				
+					opacity:.9
+				}
+
+				`}</style>
+			<div className={gifs}>
+				<div className="on">
+					<img src="/img/touch.gif" alt="" />
+				</div>
+			</div>
+		</>)
+	}
 	const producto = [
 	{
 		img:"/img/frutilla.webp",
@@ -39,7 +86,9 @@ function Producto() {
 	]
 
 	return (
-	<>
+	<>		
+		
+			<Giffer />
 			<div className={styles.indicadorNext}>
 				<p>{"Productos ➟"}</p>
 			</div>	
