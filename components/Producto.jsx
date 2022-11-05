@@ -21,7 +21,9 @@ function Producto() {
 			<style jsx>{`
 
 				.containerOff{
-					display: none;
+					position: absolute;
+					width: 95%;
+					display: flex;
 				}
 				.containerOn{
 					position: absolute;
@@ -34,15 +36,16 @@ function Producto() {
 					position: relative;
 					border-radius: 100%;
 					background: #fff;
-					top: 150px;
-					width: 110px;
-					height: 110px;
+					top: 100px;
+					width: 240px;
+					height: 240px;
 					opacity: .4;
+
 				}
 				.on img{
 					height: 80px;
 					margin: auto;
-					opacity: .9;
+					opacity: .;
 				}
 
 				`}</style>
