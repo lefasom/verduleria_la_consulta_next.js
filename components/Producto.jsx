@@ -21,35 +21,28 @@ function Producto() {
 			<style jsx>{`
 
 				.containerOff{
-					display:none;
+					display: none;
 				}
 				.containerOn{
-					position:absolute;
+					position: absolute;
 					width: 95%;
 					display: flex;
 				}
 				.on{
-					margin:auto;
-					display:flex;
+					margin: auto;
+					display: flex;
 					position: relative;
-					border-radius:100%;
+					border-radius: 100%;
 					background: #fff;
 					top: 150px;
-
-					width: 100px;
-					height: 100px;
-
+					width: 110px;
+					height: 110px;
 					opacity: .4;
-				
 				}
 				.on img{
-					
 					height: 80px;
-					
-					margin:auto;
-					
-				
-					opacity:.9
+					margin: auto;
+					opacity: .9;
 				}
 
 				`}</style>
@@ -93,7 +86,7 @@ function Producto() {
 		
 			<Giffer />
 			<div className={styles.indicadorNext}>
-				<p>{"Productos ➟"}</p>
+				<p>{"← Desplazar"}</p>
 			</div>	
 			<div className={styles.productoContainer}>
 			
