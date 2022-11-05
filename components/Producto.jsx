@@ -35,7 +35,7 @@ function Producto() {
 					top:70px;
 					background: #fff;
 					width: 90%;
-					opacity: .5;
+					opacity: .3;
 					height:300px
 				
 				}
